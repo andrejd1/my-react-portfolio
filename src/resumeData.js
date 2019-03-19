@@ -24,7 +24,8 @@ let resumeData = {
           "className":"fa fa-twitter"
         }
       ],
-    "aboutme":"I am currently a pre-final year student at The LNM Institute of Information Technology and pursuing my B.Tech from here. I am a self taught Full Stack Web Developer, currently diving deeper into Machine Learning. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.",
+    "aboutme":"I am currently working in Unicorn Systems a.s. as frontend developer. I also have some experience with Java." +
+      " And I am looking for expand my knowledge in both of these IT branches.",
     "address":"Prague, CZ",
     "website":"https://andrejd1.github.io",
     "education":[
