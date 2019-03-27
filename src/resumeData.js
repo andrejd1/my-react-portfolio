@@ -30,46 +30,67 @@ let resumeData = {
     "website":"https://andrejd1.github.io",
     "education":[
       {
-        "UniversityName":"The LNM Insitute of Information Technology",
-        "specialization":"Some specialization",
+        "UniversityName":"Faculty of Mathematics and Physics, Charles University",
+        "specialization":"Software Engineering",
         "MonthOfPassing":"Aug",
-        "YearOfPassing":"2020",
-        "Achievements":"Some Achievements"
+        "YearOfPassing":"2014-2015"
       },
       {
-        "UniversityName":"Some University",
-        "specialization":"Some specialization",
+        "UniversityName":"Faculty of Information Technology, Czech Technical University",
+        "specialization":"Computer Science",
         "MonthOfPassing":"Jan",
-        "YearOfPassing":"2018",
-        "Achievements":"Some Achievements"
+        "YearOfPassing":"2015-2016"
+      },
+      {
+        "UniversityName": "Faculty of Electrical Engineering, Czech Technical University",
+        "specialization":"Open Informatics - Computer Games and Graphics",
+        "MonthOfPassing":"Jan",
+        "YearOfPassing":"2016-2019"
       }
     ],
     "work":[
       {
-        "CompanyName":"Some Company",
-        "specialization":"Some specialization",
-        "MonthOfLeaving":"Jan",
-        "YearOfLeaving":"2018",
-        "Achievements":"Some Achievements"
+        "CompanyName":"PRAKAB Pražská Kabelovna s.r.o.",
+        "specialization":"IT Support",
+        "MonthOfStarting":"March",
+        "MonthOfLeaving":"June",
+        "YearOfStarting":"2015",
+        "YearOfLeaving":"2015"
       },
       {
-        "CompanyName":"Some Company",
+        "CompanyName":"Trask Solutions a.s.",
         "specialization":"Some specialization",
-        "MonthOfLeaving":"Jan",
-        "YearOfLeaving":"2018",
-        "Achievements":"Some Achievements"
+        "MonthOfStarting":"March",
+        "MonthOfLeaving":"November",
+        "YearOfStarting":"2017",
+        "YearOfLeaving":"2018"
+      },
+      {
+        "CompanyName":"Unicorn Systems a.s.",
+        "specialization":"Frontend developer",
+        "MonthOfStarting":"February",
+        "MonthOfLeaving":"",
+        "YearOfStarting":"2019",
+        "YearOfLeaving":"Now"
       }
     ],
-    "skillsDescription":"Your skills here",
+    "skillsDescription":"Java SE, HTML, CSS, Javascript, ReactJS",
     "skills":[
       {
-        "skillname":"HTML5"
+        "skillName":"HTML5",
+        "skillScore": "70"
       },
       {
-        "skillname":"CSS"
+        "skillName":"CSS",
+        "skillScore": "60"
       },
       {
-        "skillname":"Reactjs"
+        "skillName":"Javascript",
+        "skillScore": "55"
+      },
+      {
+        "skillName":"ReactJS",
+        "skillScore": "40"
       }
     ],
     "portfolio":[
@@ -93,17 +114,7 @@ let resumeData = {
         "description":"mobileapp",
         "imgurl":"images/portfolio/phone.jpg"
       }
-    ],
-    "testimonials":[
-      {
-        "description":"This is a sample testimonial",
-        "name":"Some technical guy"
-      },
-      {
-        "description":"This is a sample testimonial",
-        "name":"Some technical guy"
-      }
     ]
-  }
+  };
   
   export default resumeData
